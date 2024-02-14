@@ -1,4 +1,10 @@
-* {margin: 0; padding: 0; border: 0;}
+@import url('https://fonts.cdnfonts.com/css/post-no-bills-jaffna');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
 
 body {
     font-family: 'PT Sans', sans-serif;
@@ -63,6 +69,7 @@ a {
 }
 
 .nav__logo {
+    font-family: 'Post No Bills Jaffna', sans-serif;
     color: #fff;
     font-weight: 700;
     font-size: 36px;
@@ -91,6 +98,7 @@ header {
 }
 
 .header__title {
+    font-family: 'Post No Bills Jaffna', sans-serif;
     height: 320px;
     width: 320px;
     border: 4px solid #fff;
@@ -173,6 +181,14 @@ header {
     width: 260px;
     height: 325px;
     background-color: #191B1C;
+    position: relative;
+}
+
+.season__items-block-pic img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .season__items-block-title {
@@ -218,6 +234,7 @@ header {
     letter-spacing: 0.1em;
     padding: 14px 25px;
     transition-duration: 0.3s;
+    cursor: pointer;
 }
 
 .button:hover {
@@ -290,6 +307,14 @@ header {
     width: 260px;
     height: 325px;
     background-color: #191B1C;
+    position: relative;
+}
+
+.goods__items-block-pic img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .goods__items-block-title {
@@ -385,7 +410,8 @@ header {
     font-size: 14px;
     color: #fff;
     padding: 10px 20px;
-    transition-duration: 0.3s;
+    transition: all 300ms ease;
+    cursor: pointer;
 }
 
 .footer__button:hover {
